@@ -5,9 +5,13 @@
     "heightCm": 168,
     "startWeightKg": 60,
     "startDate": "2026-11-02",
-    "telegram": "",
+    "telegram": "+6281775496794",
     "gymName": "Zdrofit Libero, Katowice",
-    "gymUrl": "https://zdrofit.pl/kluby-fitness/katowice-libero/"
+    "gymUrl": "https://zdrofit.pl/kluby-fitness/katowice-libero/",
+    "askBtn": {
+      "en": "Ask my husband about this move 💬",
+      "uk": "Запитай чоловіка про цю вправу 💬"
+    }
   },
   "welcome": {
     "en": "Welcome to your first two weeks! No rush, no pressure. We only learn the moves and have fun. Lighter is better than heavier. I am with you on Telegram. 💖",
@@ -17,9 +21,18 @@
     {
       "id": "warmup-walk",
       "anim": "walk",
-      "name": { "en": "Easy treadmill walk (warm-up)", "uk": "Легка ходьба на доріжці (розминка)" },
-      "muscles": { "en": "Whole body, heart", "uk": "Все тіло, серце" },
-      "equipment": { "en": "Treadmill", "uk": "Бігова доріжка" },
+      "name": {
+        "en": "Easy treadmill walk (warm-up)",
+        "uk": "Легка ходьба на доріжці (розминка)"
+      },
+      "muscles": {
+        "en": "Whole body, heart",
+        "uk": "Все тіло, серце"
+      },
+      "equipment": {
+        "en": "Treadmill",
+        "uk": "Бігова доріжка"
+      },
       "steps": {
         "en": [
           "Set the speed to 4–5 km/h. Incline 0–3%.",
@@ -39,8 +52,14 @@
         "uk": "Розігріває м'язи та суглоби і плавно підвищує пульс. Так ризик травми менший."
       },
       "tips": {
-        "en": ["Do not hold the handrails tightly.", "No treadmill? Use the exercise bike or the elliptical for 5 minutes."],
-        "uk": ["Не тримайся міцно за поручні.", "Немає доріжки? Покрутися 5 хвилин на велотренажері або еліпсі."]
+        "en": [
+          "Do not hold the handrails tightly.",
+          "No treadmill? Use the exercise bike or the elliptical for 5 minutes."
+        ],
+        "uk": [
+          "Не тримайся міцно за поручні.",
+          "Немає доріжки? Покрутися 5 хвилин на велотренажері або еліпсі."
+        ]
       },
       "video": "",
       "alternatives": []
@@ -48,9 +67,18 @@
     {
       "id": "leg-press",
       "anim": "legpress",
-      "name": { "en": "Leg press (machine)", "uk": "Жим ногами (тренажер)" },
-      "muscles": { "en": "Thighs, glutes", "uk": "Стегна, сідниці" },
-      "equipment": { "en": "Leg press machine", "uk": "Тренажер для жиму ногами" },
+      "name": {
+        "en": "Leg press (machine)",
+        "uk": "Жим ногами (тренажер)"
+      },
+      "muscles": {
+        "en": "Thighs, glutes",
+        "uk": "Стегна, сідниці"
+      },
+      "equipment": {
+        "en": "Leg press machine",
+        "uk": "Тренажер для жиму ногами"
+      },
       "steps": {
         "en": [
           "Adjust the seat so your knees are bent about 90° at the start.",
@@ -70,18 +98,35 @@
         "uk": "Безпечно зміцнює ноги та сідниці, бо тренажер задає траєкторію. Добре вчить відштовхуватися п'ятами."
       },
       "tips": {
-        "en": ["Choose a very light weight first. Form comes before weight.", "Knees point in the same direction as your toes."],
-        "uk": ["Спочатку обери дуже малу вагу. Техніка важливіша за вагу.", "Коліна дивляться в той самий бік, що й носки."]
+        "en": [
+          "Choose a very light weight first. Form comes before weight.",
+          "Knees point in the same direction as your toes."
+        ],
+        "uk": [
+          "Спочатку обери дуже малу вагу. Техніка важливіша за вагу.",
+          "Коліна дивляться в той самий бік, що й носки."
+        ]
       },
       "video": "",
-      "alternatives": ["goblet-squat"]
+      "alternatives": [
+        "goblet-squat"
+      ]
     },
     {
       "id": "goblet-squat",
       "anim": "squat",
-      "name": { "en": "Goblet squat (dumbbell)", "uk": "Присідання з гантеллю (goblet)" },
-      "muscles": { "en": "Thighs, glutes, core", "uk": "Стегна, сідниці, кор" },
-      "equipment": { "en": "1 dumbbell (4–6 kg)", "uk": "1 гантель (4–6 кг)" },
+      "name": {
+        "en": "Goblet squat (dumbbell)",
+        "uk": "Присідання з гантеллю (goblet)"
+      },
+      "muscles": {
+        "en": "Thighs, glutes, core",
+        "uk": "Стегна, сідниці, кор"
+      },
+      "equipment": {
+        "en": "1 dumbbell (4–6 kg)",
+        "uk": "1 гантель (4–6 кг)"
+      },
       "steps": {
         "en": [
           "Stand with feet a little wider than your shoulders, toes slightly out.",
@@ -101,18 +146,35 @@
         "uk": "Найкраща базова вправа для ніг і сідниць. Також вчить тримати спину рівною та кор міцним."
       },
       "tips": {
-        "en": ["Heels stay on the floor.", "Knees follow your toes. Do not let them fall inwards."],
-        "uk": ["П'яти не відриваються від підлоги.", "Коліна рухаються за носками. Не заводь їх всередину."]
+        "en": [
+          "Heels stay on the floor.",
+          "Knees follow your toes. Do not let them fall inwards."
+        ],
+        "uk": [
+          "П'яти не відриваються від підлоги.",
+          "Коліна рухаються за носками. Не заводь їх всередину."
+        ]
       },
       "video": "",
-      "alternatives": ["leg-press"]
+      "alternatives": [
+        "leg-press"
+      ]
     },
     {
       "id": "chest-press",
       "anim": "chestpress",
-      "name": { "en": "Chest press (machine)", "uk": "Жим від грудей (тренажер)" },
-      "muscles": { "en": "Chest, shoulders, arms", "uk": "Груди, плечі, руки" },
-      "equipment": { "en": "Chest press machine", "uk": "Тренажер для жиму від грудей" },
+      "name": {
+        "en": "Chest press (machine)",
+        "uk": "Жим від грудей (тренажер)"
+      },
+      "muscles": {
+        "en": "Chest, shoulders, arms",
+        "uk": "Груди, плечі, руки"
+      },
+      "equipment": {
+        "en": "Chest press machine",
+        "uk": "Тренажер для жиму від грудей"
+      },
       "steps": {
         "en": [
           "Adjust the seat so the handles are at the middle of your chest.",
@@ -132,18 +194,35 @@
         "uk": "Зміцнює м'язи, які відповідають за штовхання. Легше носити сумки та робити віджимання."
       },
       "tips": {
-        "en": ["Do not shrug your shoulders up to your ears.", "Move slowly. Do not slam the weights."],
-        "uk": ["Не піднімай плечі до вух.", "Рухайся повільно. Не кидай вагу."]
+        "en": [
+          "Do not shrug your shoulders up to your ears.",
+          "Move slowly. Do not slam the weights."
+        ],
+        "uk": [
+          "Не піднімай плечі до вух.",
+          "Рухайся повільно. Не кидай вагу."
+        ]
       },
       "video": "",
-      "alternatives": ["incline-pushup"]
+      "alternatives": [
+        "incline-pushup"
+      ]
     },
     {
       "id": "incline-pushup",
       "anim": "pushup",
-      "name": { "en": "Incline push-up (hands on bench)", "uk": "Віджимання від лавки" },
-      "muscles": { "en": "Chest, arms, core", "uk": "Груди, руки, кор" },
-      "equipment": { "en": "A stable bench or box", "uk": "Стійка лавка або бокс" },
+      "name": {
+        "en": "Incline push-up (hands on bench)",
+        "uk": "Віджимання від лавки"
+      },
+      "muscles": {
+        "en": "Chest, arms, core",
+        "uk": "Груди, руки, кор"
+      },
+      "equipment": {
+        "en": "A stable bench or box",
+        "uk": "Стійка лавка або бокс"
+      },
       "steps": {
         "en": [
           "Put your hands on a stable bench, a little wider than your shoulders.",
@@ -163,18 +242,35 @@
         "uk": "Тренує груди, руки та кор лише вагою твого тіла. Чим вища лавка, тим легше."
       },
       "tips": {
-        "en": ["Squeeze your tummy and glutes so your hips do not sag.", "Too hard? Use a higher surface."],
-        "uk": ["Напружуй живіт і сідниці, щоб таз не провисав.", "Занадто важко? Візьми вищу опору."]
+        "en": [
+          "Squeeze your tummy and glutes so your hips do not sag.",
+          "Too hard? Use a higher surface."
+        ],
+        "uk": [
+          "Напружуй живіт і сідниці, щоб таз не провисав.",
+          "Занадто важко? Візьми вищу опору."
+        ]
       },
       "video": "",
-      "alternatives": ["chest-press"]
+      "alternatives": [
+        "chest-press"
+      ]
     },
     {
       "id": "lat-pulldown",
       "anim": "pulldown",
-      "name": { "en": "Lat pulldown (machine)", "uk": "Тяга верхнього блоку до грудей" },
-      "muscles": { "en": "Back, arms", "uk": "Спина, руки" },
-      "equipment": { "en": "Lat pulldown machine", "uk": "Тренажер верхнього блоку" },
+      "name": {
+        "en": "Lat pulldown (machine)",
+        "uk": "Тяга верхнього блоку до грудей"
+      },
+      "muscles": {
+        "en": "Back, arms",
+        "uk": "Спина, руки"
+      },
+      "equipment": {
+        "en": "Lat pulldown machine",
+        "uk": "Тренажер верхнього блоку"
+      },
       "steps": {
         "en": [
           "Adjust the thigh pad so it holds your legs firmly.",
@@ -194,18 +290,35 @@
         "uk": "Зміцнює спину й покращує поставу. Це ще й перший крок до підтягувань."
       },
       "tips": {
-        "en": ["Think about pulling with your elbows, not your hands.", "Squeeze your shoulder blades together at the bottom."],
-        "uk": ["Думай, що тягнеш ліктями, а не кистями.", "Внизу зведи лопатки разом."]
+        "en": [
+          "Think about pulling with your elbows, not your hands.",
+          "Squeeze your shoulder blades together at the bottom."
+        ],
+        "uk": [
+          "Думай, що тягнеш ліктями, а не кистями.",
+          "Внизу зведи лопатки разом."
+        ]
       },
       "video": "",
-      "alternatives": ["db-row"]
+      "alternatives": [
+        "db-row"
+      ]
     },
     {
       "id": "seated-row",
       "anim": "row",
-      "name": { "en": "Seated cable row", "uk": "Горизонтальна тяга (блок)" },
-      "muscles": { "en": "Back, rear shoulders, arms", "uk": "Спина, задні дельти, руки" },
-      "equipment": { "en": "Seated row machine or cable", "uk": "Тренажер горизонтальної тяги або блок" },
+      "name": {
+        "en": "Seated cable row",
+        "uk": "Горизонтальна тяга (блок)"
+      },
+      "muscles": {
+        "en": "Back, rear shoulders, arms",
+        "uk": "Спина, задні дельти, руки"
+      },
+      "equipment": {
+        "en": "Seated row machine or cable",
+        "uk": "Тренажер горизонтальної тяги або блок"
+      },
       "steps": {
         "en": [
           "Sit with your feet on the platform and knees slightly bent. Take the handle.",
@@ -225,18 +338,35 @@
         "uk": "Зміцнює верх спини, тому легше сидіти й стояти рівно щодня."
       },
       "tips": {
-        "en": ["Do not lean far back. Only your arms and shoulder blades move.", "Use a light weight and slow moves."],
-        "uk": ["Не відхиляйся сильно назад. Рухаються лише руки та лопатки.", "Бери легку вагу й рухайся повільно."]
+        "en": [
+          "Do not lean far back. Only your arms and shoulder blades move.",
+          "Use a light weight and slow moves."
+        ],
+        "uk": [
+          "Не відхиляйся сильно назад. Рухаються лише руки та лопатки.",
+          "Бери легку вагу й рухайся повільно."
+        ]
       },
       "video": "",
-      "alternatives": ["db-row"]
+      "alternatives": [
+        "db-row"
+      ]
     },
     {
       "id": "db-row",
       "anim": "dbrow",
-      "name": { "en": "One-arm dumbbell row", "uk": "Тяга гантелі однією рукою" },
-      "muscles": { "en": "Back, arms", "uk": "Спина, руки" },
-      "equipment": { "en": "1 dumbbell (3–6 kg) and a bench", "uk": "1 гантель (3–6 кг) і лавка" },
+      "name": {
+        "en": "One-arm dumbbell row",
+        "uk": "Тяга гантелі однією рукою"
+      },
+      "muscles": {
+        "en": "Back, arms",
+        "uk": "Спина, руки"
+      },
+      "equipment": {
+        "en": "1 dumbbell (3–6 kg) and a bench",
+        "uk": "1 гантель (3–6 кг) і лавка"
+      },
       "steps": {
         "en": [
           "Put one hand and the same knee on a bench. The other foot stays on the floor.",
@@ -256,18 +386,36 @@
         "uk": "Тренує кожен бік спини окремо, тому обидві сторони стають однаково сильними."
       },
       "tips": {
-        "en": ["Do not twist your body.", "Same number of reps on both sides."],
-        "uk": ["Не скручуй корпус.", "Однакова кількість повторень на обидва боки."]
+        "en": [
+          "Do not twist your body.",
+          "Same number of reps on both sides."
+        ],
+        "uk": [
+          "Не скручуй корпус.",
+          "Однакова кількість повторень на обидва боки."
+        ]
       },
       "video": "",
-      "alternatives": ["seated-row", "lat-pulldown"]
+      "alternatives": [
+        "seated-row",
+        "lat-pulldown"
+      ]
     },
     {
       "id": "shoulder-press",
       "anim": "shoulderpress",
-      "name": { "en": "Seated dumbbell shoulder press", "uk": "Жим гантелей сидячи" },
-      "muscles": { "en": "Shoulders, arms", "uk": "Плечі, руки" },
-      "equipment": { "en": "2 light dumbbells (2–4 kg) and a bench with a back", "uk": "2 легкі гантелі (2–4 кг) і лавка зі спинкою" },
+      "name": {
+        "en": "Seated dumbbell shoulder press",
+        "uk": "Жим гантелей сидячи"
+      },
+      "muscles": {
+        "en": "Shoulders, arms",
+        "uk": "Плечі, руки"
+      },
+      "equipment": {
+        "en": "2 light dumbbells (2–4 kg) and a bench with a back",
+        "uk": "2 легкі гантелі (2–4 кг) і лавка зі спинкою"
+      },
       "steps": {
         "en": [
           "Sit with your back on the pad. Hold the dumbbells at shoulder height, palms forward.",
@@ -287,18 +435,35 @@
         "uk": "Зміцнює плечі, тому піднімати речі над головою буде легко."
       },
       "tips": {
-        "en": ["Start with very light dumbbells.", "No dumbbells free? Use the shoulder press machine."],
-        "uk": ["Почни з дуже легких гантелей.", "Немає вільних гантелей? Скористайся тренажером для жиму плечей."]
+        "en": [
+          "Start with very light dumbbells.",
+          "No dumbbells free? Use the shoulder press machine."
+        ],
+        "uk": [
+          "Почни з дуже легких гантелей.",
+          "Немає вільних гантелей? Скористайся тренажером для жиму плечей."
+        ]
       },
       "video": "",
-      "alternatives": ["shoulder-press-machine"]
+      "alternatives": [
+        "shoulder-press-machine"
+      ]
     },
     {
       "id": "shoulder-press-machine",
       "anim": "shoulderpress-m",
-      "name": { "en": "Shoulder press (machine)", "uk": "Жим плечей (тренажер)" },
-      "muscles": { "en": "Shoulders, arms", "uk": "Плечі, руки" },
-      "equipment": { "en": "Shoulder press machine", "uk": "Тренажер для жиму плечей" },
+      "name": {
+        "en": "Shoulder press (machine)",
+        "uk": "Жим плечей (тренажер)"
+      },
+      "muscles": {
+        "en": "Shoulders, arms",
+        "uk": "Плечі, руки"
+      },
+      "equipment": {
+        "en": "Shoulder press machine",
+        "uk": "Тренажер для жиму плечей"
+      },
       "steps": {
         "en": [
           "Adjust the seat so the handles are at shoulder height.",
@@ -318,18 +483,35 @@
         "uk": "Безпечний спосіб тренувати плечі. Тренажер сам веде рух."
       },
       "tips": {
-        "en": ["Start with the lightest weight.", "Keep your neck relaxed."],
-        "uk": ["Почни з найменшої ваги.", "Шия розслаблена."]
+        "en": [
+          "Start with the lightest weight.",
+          "Keep your neck relaxed."
+        ],
+        "uk": [
+          "Почни з найменшої ваги.",
+          "Шия розслаблена."
+        ]
       },
       "video": "",
-      "alternatives": ["shoulder-press"]
+      "alternatives": [
+        "shoulder-press"
+      ]
     },
     {
       "id": "rdl",
       "anim": "rdl",
-      "name": { "en": "Romanian deadlift (light dumbbells)", "uk": "Румунська тяга з легкими гантелями" },
-      "muscles": { "en": "Back of thighs, glutes, lower back", "uk": "Задня поверхня стегон, сідниці, поперек" },
-      "equipment": { "en": "2 light dumbbells (3–5 kg each)", "uk": "2 легкі гантелі (по 3–5 кг)" },
+      "name": {
+        "en": "Romanian deadlift (light dumbbells)",
+        "uk": "Румунська тяга з легкими гантелями"
+      },
+      "muscles": {
+        "en": "Back of thighs, glutes, lower back",
+        "uk": "Задня поверхня стегон, сідниці, поперек"
+      },
+      "equipment": {
+        "en": "2 light dumbbells (3–5 kg each)",
+        "uk": "2 легкі гантелі (по 3–5 кг)"
+      },
       "steps": {
         "en": [
           "Stand with feet hip-width apart. Hold the dumbbells in front of your thighs.",
@@ -349,18 +531,35 @@
         "uk": "Тренує задню частину ніг і сідниці. Вчить згинатися в тазі й берегти спину."
       },
       "tips": {
-        "en": ["Look at the floor a little ahead of you. Do not round your back.", "Not a squat. Your knees barely bend."],
-        "uk": ["Дивись на підлогу трохи попереду. Не округлюй спину.", "Це не присідання. Коліна майже не згинаються."]
+        "en": [
+          "Look at the floor a little ahead of you. Do not round your back.",
+          "Not a squat. Your knees barely bend."
+        ],
+        "uk": [
+          "Дивись на підлогу трохи попереду. Не округлюй спину.",
+          "Це не присідання. Коліна майже не згинаються."
+        ]
       },
       "video": "",
-      "alternatives": ["glute-bridge"]
+      "alternatives": [
+        "glute-bridge"
+      ]
     },
     {
       "id": "glute-bridge",
       "anim": "bridge",
-      "name": { "en": "Glute bridge", "uk": "Сідничний місток" },
-      "muscles": { "en": "Glutes, back of thighs", "uk": "Сідниці, задня поверхня стегон" },
-      "equipment": { "en": "Mat (no weights)", "uk": "Килимок (без ваги)" },
+      "name": {
+        "en": "Glute bridge",
+        "uk": "Сідничний місток"
+      },
+      "muscles": {
+        "en": "Glutes, back of thighs",
+        "uk": "Сідниці, задня поверхня стегон"
+      },
+      "equipment": {
+        "en": "Mat (no weights)",
+        "uk": "Килимок (без ваги)"
+      },
       "steps": {
         "en": [
           "Lie on your back. Knees bent, feet flat on the floor, hip-width apart.",
@@ -380,18 +579,35 @@
         "uk": "Активує сідниці та береже поперек. Легко робити й вдома."
       },
       "tips": {
-        "en": ["Do not lift too high. Stop when your body is straight.", "Feel it in your glutes, not your lower back."],
-        "uk": ["Не піднімайся занадто високо. Зупинись, коли тіло пряме.", "Відчувай сідниці, а не поперек."]
+        "en": [
+          "Do not lift too high. Stop when your body is straight.",
+          "Feel it in your glutes, not your lower back."
+        ],
+        "uk": [
+          "Не піднімайся занадто високо. Зупинись, коли тіло пряме.",
+          "Відчувай сідниці, а не поперек."
+        ]
       },
       "video": "",
-      "alternatives": ["rdl"]
+      "alternatives": [
+        "rdl"
+      ]
     },
     {
       "id": "plank",
       "anim": "plank",
-      "name": { "en": "Forearm plank", "uk": "Планка на передпліччях" },
-      "muscles": { "en": "Core, shoulders", "uk": "Кор, плечі" },
-      "equipment": { "en": "Mat", "uk": "Килимок" },
+      "name": {
+        "en": "Forearm plank",
+        "uk": "Планка на передпліччях"
+      },
+      "muscles": {
+        "en": "Core, shoulders",
+        "uk": "Кор, плечі"
+      },
+      "equipment": {
+        "en": "Mat",
+        "uk": "Килимок"
+      },
       "steps": {
         "en": [
           "Put your forearms on the mat. Elbows are right under your shoulders.",
@@ -411,18 +627,35 @@
         "uk": "Зміцнює кор. Він підтримує спину в усіх інших вправах."
       },
       "tips": {
-        "en": ["Do not hold your breath.", "Stop when your lower back starts to sag. A short, clean hold is better."],
-        "uk": ["Не затримуй дихання.", "Зупинись, коли поперек починає провисати. Коротко, але рівно — краще."]
+        "en": [
+          "Do not hold your breath.",
+          "Stop when your lower back starts to sag. A short, clean hold is better."
+        ],
+        "uk": [
+          "Не затримуй дихання.",
+          "Зупинись, коли поперек починає провисати. Коротко, але рівно — краще."
+        ]
       },
       "video": "",
-      "alternatives": ["dead-bug"]
+      "alternatives": [
+        "dead-bug"
+      ]
     },
     {
       "id": "dead-bug",
       "anim": "deadbug",
-      "name": { "en": "Dead bug", "uk": "Мертвий жук (dead bug)" },
-      "muscles": { "en": "Deep core", "uk": "Глибокі м'язи кору" },
-      "equipment": { "en": "Mat", "uk": "Килимок" },
+      "name": {
+        "en": "Dead bug",
+        "uk": "Мертвий жук (dead bug)"
+      },
+      "muscles": {
+        "en": "Deep core",
+        "uk": "Глибокі м'язи кору"
+      },
+      "equipment": {
+        "en": "Mat",
+        "uk": "Килимок"
+      },
       "steps": {
         "en": [
           "Lie on your back. Arms point up to the ceiling. Knees bent at 90° above your hips.",
@@ -442,18 +675,35 @@
         "uk": "Вчить кор тримати спину стабільною, поки рухаються руки й ноги."
       },
       "tips": {
-        "en": ["If your back lifts off the floor, make the move smaller.", "Count one rep for each side."],
-        "uk": ["Якщо поперек відривається від підлоги, зроби рух меншим.", "Одне повторення — це одна сторона."]
+        "en": [
+          "If your back lifts off the floor, make the move smaller.",
+          "Count one rep for each side."
+        ],
+        "uk": [
+          "Якщо поперек відривається від підлоги, зроби рух меншим.",
+          "Одне повторення — це одна сторона."
+        ]
       },
       "video": "",
-      "alternatives": ["plank"]
+      "alternatives": [
+        "plank"
+      ]
     },
     {
       "id": "stretch",
       "anim": "stretch",
-      "name": { "en": "Cool-down stretch", "uk": "Розтяжка після тренування" },
-      "muscles": { "en": "Back of legs, back", "uk": "Задня поверхня ніг, спина" },
-      "equipment": { "en": "None", "uk": "Не потрібно" },
+      "name": {
+        "en": "Cool-down stretch",
+        "uk": "Розтяжка після тренування"
+      },
+      "muscles": {
+        "en": "Back of legs, back",
+        "uk": "Задня поверхня ніг, спина"
+      },
+      "equipment": {
+        "en": "None",
+        "uk": "Не потрібно"
+      },
       "steps": {
         "en": [
           "Stand tall and reach your arms up. Breathe in.",
@@ -473,74 +723,385 @@
         "uk": "Допомагає тілу заспокоїтись після тренування й зберігає гнучкість."
       },
       "tips": {
-        "en": ["Stretch only until it feels tight, never until it hurts."],
-        "uk": ["Тягнись лише до легкого натягу, ніколи до болю."]
+        "en": [
+          "Stretch only until it feels tight, never until it hurts."
+        ],
+        "uk": [
+          "Тягнись лише до легкого натягу, ніколи до болю."
+        ]
       },
       "video": "",
       "alternatives": []
     }
   ],
   "program": {
-    "title": { "en": "First 2 weeks: learn the moves", "uk": "Перші 2 тижні: вчимо рухи" },
+    "title": {
+      "en": "First 2 weeks: learn the moves",
+      "uk": "Перші 2 тижні: вчимо рухи"
+    },
     "sessions": [
       {
         "id": "s1",
         "week": 1,
-        "title": { "en": "Workout 1: Legs, chest, back", "uk": "Тренування 1: Ноги, груди, спина" },
-        "focus": { "en": "Learn the machines. Use light weights.", "uk": "Знайомимось із тренажерами. Бери легку вагу." },
+        "title": {
+          "en": "Workout 1: Legs, chest, back",
+          "uk": "Тренування 1: Ноги, груди, спина"
+        },
+        "focus": {
+          "en": "Learn the machines. Use light weights.",
+          "uk": "Знайомимось із тренажерами. Бери легку вагу."
+        },
         "items": [
-          { "ex": "warmup-walk", "sets": 1, "reps": "5", "unit": "min", "rest": 0, "note": { "en": "", "uk": "" } },
-          { "ex": "leg-press", "sets": 2, "reps": "12", "unit": "reps", "rest": 60, "note": { "en": "Very light weight.", "uk": "Дуже мала вага." } },
-          { "ex": "chest-press", "sets": 2, "reps": "12", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "lat-pulldown", "sets": 2, "reps": "12", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "glute-bridge", "sets": 2, "reps": "12", "unit": "reps", "rest": 45, "note": { "en": "", "uk": "" } },
-          { "ex": "plank", "sets": 2, "reps": "15", "unit": "sec", "rest": 45, "note": { "en": "Knees down is okay.", "uk": "Можна на колінах." } },
-          { "ex": "stretch", "sets": 1, "reps": "3", "unit": "min", "rest": 0, "note": { "en": "", "uk": "" } }
+          {
+            "ex": "warmup-walk",
+            "sets": 1,
+            "reps": "5",
+            "unit": "min",
+            "rest": 0,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "leg-press",
+            "sets": 2,
+            "reps": "12",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "Very light weight.",
+              "uk": "Дуже мала вага."
+            }
+          },
+          {
+            "ex": "chest-press",
+            "sets": 2,
+            "reps": "12",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "lat-pulldown",
+            "sets": 2,
+            "reps": "12",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "glute-bridge",
+            "sets": 2,
+            "reps": "12",
+            "unit": "reps",
+            "rest": 45,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "plank",
+            "sets": 2,
+            "reps": "15",
+            "unit": "sec",
+            "rest": 45,
+            "note": {
+              "en": "Knees down is okay.",
+              "uk": "Можна на колінах."
+            }
+          },
+          {
+            "ex": "stretch",
+            "sets": 1,
+            "reps": "3",
+            "unit": "min",
+            "rest": 0,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          }
         ]
       },
       {
         "id": "s2",
         "week": 1,
-        "title": { "en": "Workout 2: Squat, row, shoulders", "uk": "Тренування 2: Присідання, тяга, плечі" },
-        "focus": { "en": "Learn to bend at the hips and keep your back straight.", "uk": "Вчимось згинатися в тазі та тримати спину рівною." },
+        "title": {
+          "en": "Workout 2: Squat, row, shoulders",
+          "uk": "Тренування 2: Присідання, тяга, плечі"
+        },
+        "focus": {
+          "en": "Learn to bend at the hips and keep your back straight.",
+          "uk": "Вчимось згинатися в тазі та тримати спину рівною."
+        },
         "items": [
-          { "ex": "warmup-walk", "sets": 1, "reps": "5", "unit": "min", "rest": 0, "note": { "en": "", "uk": "" } },
-          { "ex": "goblet-squat", "sets": 2, "reps": "10", "unit": "reps", "rest": 60, "note": { "en": "Light dumbbell (4 kg is fine).", "uk": "Легка гантель (4 кг достатньо)." } },
-          { "ex": "seated-row", "sets": 2, "reps": "12", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "shoulder-press", "sets": 2, "reps": "10", "unit": "reps", "rest": 60, "note": { "en": "Very light dumbbells.", "uk": "Дуже легкі гантелі." } },
-          { "ex": "rdl", "sets": 2, "reps": "10", "unit": "reps", "rest": 60, "note": { "en": "Slow and with a flat back.", "uk": "Повільно і з рівною спиною." } },
-          { "ex": "dead-bug", "sets": 2, "reps": "6", "unit": "reps", "rest": 45, "note": { "en": "6 on each side.", "uk": "По 6 на кожну сторону." } },
-          { "ex": "stretch", "sets": 1, "reps": "3", "unit": "min", "rest": 0, "note": { "en": "", "uk": "" } }
+          {
+            "ex": "warmup-walk",
+            "sets": 1,
+            "reps": "5",
+            "unit": "min",
+            "rest": 0,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "goblet-squat",
+            "sets": 2,
+            "reps": "10",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "Light dumbbell (4 kg is fine).",
+              "uk": "Легка гантель (4 кг достатньо)."
+            }
+          },
+          {
+            "ex": "seated-row",
+            "sets": 2,
+            "reps": "12",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "shoulder-press",
+            "sets": 2,
+            "reps": "10",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "Very light dumbbells.",
+              "uk": "Дуже легкі гантелі."
+            }
+          },
+          {
+            "ex": "rdl",
+            "sets": 2,
+            "reps": "10",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "Slow and with a flat back.",
+              "uk": "Повільно і з рівною спиною."
+            }
+          },
+          {
+            "ex": "dead-bug",
+            "sets": 2,
+            "reps": "6",
+            "unit": "reps",
+            "rest": 45,
+            "note": {
+              "en": "6 on each side.",
+              "uk": "По 6 на кожну сторону."
+            }
+          },
+          {
+            "ex": "stretch",
+            "sets": 1,
+            "reps": "3",
+            "unit": "min",
+            "rest": 0,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          }
         ]
       },
       {
         "id": "s3",
         "week": 2,
-        "title": { "en": "Workout 3: Legs, chest, back", "uk": "Тренування 3: Ноги, груди, спина" },
-        "focus": { "en": "Same as Workout 1. One more set on the big moves. Add a little weight if it felt easy.", "uk": "Те саме, що й тренування 1. Ще один підхід у великих вправах. Додай трохи ваги, якщо було легко." },
+        "title": {
+          "en": "Workout 3: Legs, chest, back",
+          "uk": "Тренування 3: Ноги, груди, спина"
+        },
+        "focus": {
+          "en": "Same as Workout 1. One more set on the big moves. Add a little weight if it felt easy.",
+          "uk": "Те саме, що й тренування 1. Ще один підхід у великих вправах. Додай трохи ваги, якщо було легко."
+        },
         "items": [
-          { "ex": "warmup-walk", "sets": 1, "reps": "5", "unit": "min", "rest": 0, "note": { "en": "", "uk": "" } },
-          { "ex": "leg-press", "sets": 3, "reps": "12", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "chest-press", "sets": 3, "reps": "10", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "lat-pulldown", "sets": 3, "reps": "10", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "glute-bridge", "sets": 2, "reps": "15", "unit": "reps", "rest": 45, "note": { "en": "", "uk": "" } },
-          { "ex": "plank", "sets": 2, "reps": "20", "unit": "sec", "rest": 45, "note": { "en": "", "uk": "" } },
-          { "ex": "stretch", "sets": 1, "reps": "3", "unit": "min", "rest": 0, "note": { "en": "", "uk": "" } }
+          {
+            "ex": "warmup-walk",
+            "sets": 1,
+            "reps": "5",
+            "unit": "min",
+            "rest": 0,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "leg-press",
+            "sets": 3,
+            "reps": "12",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "chest-press",
+            "sets": 3,
+            "reps": "10",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "lat-pulldown",
+            "sets": 3,
+            "reps": "10",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "glute-bridge",
+            "sets": 2,
+            "reps": "15",
+            "unit": "reps",
+            "rest": 45,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "plank",
+            "sets": 2,
+            "reps": "20",
+            "unit": "sec",
+            "rest": 45,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "stretch",
+            "sets": 1,
+            "reps": "3",
+            "unit": "min",
+            "rest": 0,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          }
         ]
       },
       {
         "id": "s4",
         "week": 2,
-        "title": { "en": "Workout 4: Squat, row, shoulders", "uk": "Тренування 4: Присідання, тяга, плечі" },
-        "focus": { "en": "Same as Workout 2. One more set on the big moves. Last workout of this plan!", "uk": "Те саме, що й тренування 2. Ще один підхід у великих вправах. Останнє тренування цього плану!" },
+        "title": {
+          "en": "Workout 4: Squat, row, shoulders",
+          "uk": "Тренування 4: Присідання, тяга, плечі"
+        },
+        "focus": {
+          "en": "Same as Workout 2. One more set on the big moves. Last workout of this plan!",
+          "uk": "Те саме, що й тренування 2. Ще один підхід у великих вправах. Останнє тренування цього плану!"
+        },
         "items": [
-          { "ex": "warmup-walk", "sets": 1, "reps": "5", "unit": "min", "rest": 0, "note": { "en": "", "uk": "" } },
-          { "ex": "goblet-squat", "sets": 3, "reps": "10", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "seated-row", "sets": 3, "reps": "10", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "shoulder-press", "sets": 2, "reps": "10", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "rdl", "sets": 2, "reps": "12", "unit": "reps", "rest": 60, "note": { "en": "", "uk": "" } },
-          { "ex": "dead-bug", "sets": 2, "reps": "8", "unit": "reps", "rest": 45, "note": { "en": "8 on each side.", "uk": "По 8 на кожну сторону." } },
-          { "ex": "stretch", "sets": 1, "reps": "3", "unit": "min", "rest": 0, "note": { "en": "", "uk": "" } }
+          {
+            "ex": "warmup-walk",
+            "sets": 1,
+            "reps": "5",
+            "unit": "min",
+            "rest": 0,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "goblet-squat",
+            "sets": 3,
+            "reps": "10",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "seated-row",
+            "sets": 3,
+            "reps": "10",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "shoulder-press",
+            "sets": 2,
+            "reps": "10",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "rdl",
+            "sets": 2,
+            "reps": "12",
+            "unit": "reps",
+            "rest": 60,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          },
+          {
+            "ex": "dead-bug",
+            "sets": 2,
+            "reps": "8",
+            "unit": "reps",
+            "rest": 45,
+            "note": {
+              "en": "8 on each side.",
+              "uk": "По 8 на кожну сторону."
+            }
+          },
+          {
+            "ex": "stretch",
+            "sets": 1,
+            "reps": "3",
+            "unit": "min",
+            "rest": 0,
+            "note": {
+              "en": "",
+              "uk": ""
+            }
+          }
         ]
       }
     ]

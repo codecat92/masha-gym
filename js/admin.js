@@ -20,6 +20,7 @@
   const bi = () => ({ en: '', uk: '' });
   function normalize(d) {
     d.profile = d.profile || {};
+    d.profile.askBtn = d.profile.askBtn || bi();
     d.welcome = d.welcome || bi();
     d.program = d.program || { title: bi(), sessions: [] };
     d.program.title = d.program.title || bi();
@@ -63,7 +64,7 @@
     const exOpts = (sel) => data.exercises.map((e) => `<option value="${esc(e.id)}" ${e.id === sel ? 'selected' : ''}>${esc(e.name.en || e.id)}</option>`).join('');
     return `<div class="pane">
       <p class="hint">Atur sesi latihan. Isi bahasa Inggris dan Ukraina. Kalau kolom Ukraina kosong, situs menampilkan versi Inggris. Urutan sesi = urutan di situs.</p>
-      ${data.program.sessions.map((s, si) => `
+      <div class="grid-cards sessions">${data.program.sessions.map((s, si) => `
       <details class="card" open>
         <summary><h3>Sesi ${si + 1}: ${esc(s.title.en)}</h3><span class="tag">Minggu ${esc(s.week)}</span></summary>
         <div class="item tools-row"><div class="tools">
@@ -88,7 +89,7 @@
           ${dual('Catatan untuk Masha (opsional)', `program.sessions.${si}.items.${ii}.note`)}
         </div>`).join('')}
         <button class="btn ghost sm" data-act="i-add" data-s="${si}">+ Tambah latihan ke sesi ini</button>
-      </details>`).join('')}
+      </details>`).join('')}</div>
       <button class="btn" data-act="s-add">+ Tambah sesi baru</button>
     </div>`;
   }
@@ -97,7 +98,7 @@
     const animIds = window.Anim.ids();
     return `<div class="pane">
       <p class="hint">Perpustakaan latihan. Setiap latihan punya animasi, teks, manfaat, video YouTube, dan alternatif jika mesin tidak ada. Latihan baru bisa langsung dipakai di tab Program.</p>
-      ${data.exercises.map((e, i) => `
+      <div class="grid-cards">${data.exercises.map((e, i) => `
       <details class="card" data-ex="${i}">
         <summary><h3>${esc(e.name.en || e.id)}</h3><span class="tag">${esc(e.id)}</span></summary>
         <div class="exgrid">
@@ -105,8 +106,8 @@
           <div>
             <div class="row">
               <label class="f"><span>Animasi</span><select data-path="exercises.${i}.anim" data-refresh="${i}">${animIds.map((a) => `<option ${a === e.anim ? 'selected' : ''}>${a}</option>`).join('')}</select></label>
-              ${inp('Video YouTube (link atau kode embed)', `exercises.${i}.video`, { ph: 'https://www.youtube.com/watch?v=...' })}
             </div>
+            <div class="vidbox">${inp('🎬 Video contoh form (YouTube)', `exercises.${i}.video`, { ph: 'Tempel link YouTube di sini, mis. https://www.youtube.com/watch?v=...' })}<small>Boleh link biasa, link youtu.be, link Shorts, atau kode embed &lt;iframe&gt;. Kalau dikosongkan, bagian video tidak tampil di sisi Masha.</small></div>
             ${dual('Nama', `exercises.${i}.name`)}
             ${dual('Otot yang bekerja', `exercises.${i}.muscles`)}
             ${dual('Alat', `exercises.${i}.equipment`)}
@@ -119,11 +120,17 @@
             <button class="btn danger sm" data-act="ex-del" data-i="${i}">Hapus latihan ini</button>
           </div>
         </div>
-      </details>`).join('')}
+      </details>`).join('')}</div>
       <button class="btn" data-act="ex-add">+ Latihan baru</button>
     </div>`;
   }
 
+  function tgPreview() {
+    const raw = (data.profile && data.profile.telegram) || '';
+    const u = TG.url(raw);
+    if (!u) return 'Kosong: tombol Telegram (di halaman utama dan di tiap latihan) disembunyikan.';
+    return `Tombol akan membuka: <a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a> (klik untuk mencoba). Nomor yang diawali 0 otomatis dianggap nomor Indonesia (+62). Catatan: link nomor HP hanya bisa dibuka kalau privasi nomor di akun Telegram kamu mengizinkan; username (@nama) paling andal.`;
+  }
   function viewProfile() {
     return `<div class="pane">
       <div class="row">
@@ -133,8 +140,10 @@
         ${inp('Tanggal mulai', 'profile.startDate', { type: 'date', cls: 'm' })}
       </div>
       <div class="row">
-        ${inp('Username Telegram kamu (untuk tombol "Message coach")', 'profile.telegram', { ph: 'username tanpa @' })}
+        ${inp('Kontak Telegram kamu (nomor HP, @username, atau link t.me)', 'profile.telegram', { ph: '+6281775496794 atau @username', cls: 'tgfield' })}
       </div>
+      <p class="hint" id="tgprev">${tgPreview()}</p>
+      ${dual('Teks tombol "Tanya suami" di tiap latihan', 'profile.askBtn')}
       <div class="row">
         ${inp('Nama gym', 'profile.gymName')}
         ${inp('Website gym', 'profile.gymUrl')}
@@ -214,7 +223,10 @@
   /* ---------- events ---------- */
   document.addEventListener('input', (e) => {
     const el = e.target;
-    if (el.dataset && el.dataset.path && el.tagName !== 'SELECT') writeField(el);
+    if (el.dataset && el.dataset.path && el.tagName !== 'SELECT') {
+      writeField(el);
+      if (el.dataset.path === 'profile.telegram') { const h = $('#tgprev'); if (h) h.innerHTML = tgPreview(); }
+    }
   });
   document.addEventListener('change', (e) => {
     const el = e.target;

@@ -213,6 +213,14 @@
       }).join('')}`).join('');
   }
 
+  function askLink(ex) {
+    const p = (content && content.profile) || {};
+    const href = TG.url(p.telegram, t('ask_prefill', { name: L(ex.name) }));
+    if (!href) return '';
+    const label = L(p.askBtn) || t('ask_btn');
+    return `<a class="ask" href="${esc(href)}" target="_blank" rel="noopener"><span class="ask-ic">✈️</span><span>${esc(label)}</span></a>`;
+  }
+
   function exCard(s, item, idx, open) {
     const st = sess(s.id);
     const altId = st.alt[idx];
@@ -250,6 +258,7 @@
         <p>${esc(L(ex.benefits))}</p>
         ${tips.length ? `<h4>${t('tips')}</h4><ul class="tips">${tips.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
         ${vid ? `<h4>${t('watch')}</h4><div class="video"><button class="vbtn" data-action="play-video" data-src="${esc(vid.src)}" style="${vid.thumb ? `background-image:url('${esc(vid.thumb)}')` : ''}" aria-label="${t('play_video')}"><span class="play">▶</span></button></div>` : ''}
+        ${askLink(ex)}
         ${alts.length || altId ? `<div class="alt">
           <h4>${t('no_machine')}</h4>
           ${alts.map((a) => `<button class="btn ghost" data-action="alt" data-s="${esc(s.id)}" data-i="${idx}" data-alt="${esc(a.id)}">${t('use_instead', { name: esc(L(a.name)) })}</button>`).join('')}
@@ -369,7 +378,7 @@
       .map(([k, href, label, d]) => `<a href="${href}" data-tab="${k}"><svg viewBox="0 0 24 24" aria-hidden="true">${d}</svg><span>${label}</span></a>`).join('');
     $langs.innerHTML = ['uk', 'en'].map((l) => `<button data-lang="${l}" class="${getLang() === l ? 'on' : ''}" aria-pressed="${getLang() === l}">${l === 'uk' ? '🇺🇦 UA' : '🇬🇧 EN'}</button>`).join('');
     const tg = content && content.profile.telegram;
-    if (tg) { $tg.hidden = false; $tg.href = 'https://t.me/' + tg.replace(/^@/, ''); $tg.textContent = '✈ ' + t('telegram_btn'); }
+    if (tg) { $tg.hidden = false; $tg.href = TG.url(tg); $tg.textContent = '✈ ' + t('telegram_btn'); }
     else $tg.hidden = true;
   }
 
