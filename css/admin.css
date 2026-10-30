@@ -1,0 +1,50 @@
+:root{--pink:#ff4f98;--pink-d:#d12a78;--pink-3:#ffd6e8;--pink-4:#ffeaf3;--ink:#4a1d3d;--muted:#8d6a80;--line:#ffd0e4;--lilac:#a98bff}
+*{box-sizing:border-box}
+body{margin:0;background:#fff7fb;color:var(--ink);font:400 15px/1.5 'Nunito',system-ui,sans-serif}
+h1,h2,h3{font-family:'Comfortaa','Nunito',sans-serif;margin:0}
+code{background:var(--pink-4);padding:1px 6px;border-radius:6px}
+button{font:inherit;cursor:pointer}
+.btn{border:0;background:var(--pink);color:#fff;font-weight:800;padding:10px 20px;border-radius:999px;box-shadow:0 3px 0 var(--pink-d)}
+.btn.ghost{background:#fff;color:var(--pink-d);border:2px solid #ff8fc0;box-shadow:none;text-decoration:none;display:inline-block}
+.btn.sm{padding:7px 14px;font-size:.88rem}
+.btn.danger{background:#fff;color:#c0204f;border:2px solid #f4a3bb;box-shadow:none}
+.login{min-height:100vh;display:grid;place-items:center;padding:16px}
+.box{background:#fff;border:2px solid var(--line);border-radius:26px;padding:26px;max-width:380px;width:100%;display:flex;flex-direction:column;gap:12px;box-shadow:0 5px 0 var(--line)}
+.box input{font:inherit;padding:11px 14px;border:2px solid var(--line);border-radius:14px}
+.msg{color:#c0204f;margin:0;font-weight:700}
+.bar{position:sticky;top:0;z-index:10;display:flex;align-items:center;gap:10px;padding:10px 16px;background:#fff;border-bottom:2px solid var(--line)}
+.bar strong{font:700 1.05rem 'Comfortaa',sans-serif;color:var(--pink-d);margin-right:auto}
+.status{font-size:.85rem;color:var(--muted);font-weight:700}
+.status.dirty{color:#c0204f}
+.tabs{display:flex;gap:6px;padding:10px 16px 0;max-width:980px;margin:0 auto;overflow-x:auto}
+.tabs button{border:0;background:var(--pink-4);color:var(--muted);padding:9px 16px;border-radius:14px 14px 0 0;font-weight:800;white-space:nowrap}
+.tabs button.on{background:#fff;color:var(--pink-d);box-shadow:0 -2px 0 var(--pink) inset}
+main{max-width:980px;margin:0 auto;padding:0 16px 80px}
+.pane{background:#fff;border:2px solid var(--line);border-radius:0 18px 18px 18px;padding:18px}
+.card{border:2px solid var(--line);border-radius:18px;padding:14px;margin:0 0 14px;background:#fff}
+.card>summary{cursor:pointer;font-weight:800;display:flex;gap:10px;align-items:center}
+.card[open]>summary{margin-bottom:12px}
+.card h3{font-size:1rem;color:var(--pink-d)}
+.hint{color:var(--muted);font-size:.88rem;margin:4px 0 12px}
+.f{display:flex;flex-direction:column;gap:3px;margin:0 0 10px;flex:1;min-width:0}
+.f>span{font-size:.78rem;font-weight:800;color:var(--muted)}
+.f input,.f textarea,.f select{font:inherit;padding:8px 10px;border:2px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);width:100%}
+.f textarea{resize:vertical}
+.bi{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end}
+.row .f.s{flex:0 0 90px}.row .f.m{flex:0 0 130px}
+.item{border:2px dashed var(--line);border-radius:14px;padding:10px;margin:0 0 10px;background:#fffafd}
+.item .tools{display:flex;gap:6px;justify-content:flex-end;margin-bottom:6px}
+.item .tools button{border:2px solid var(--line);background:#fff;border-radius:10px;padding:2px 10px;font-weight:800}
+.tag{font-size:.75rem;background:var(--pink-4);border-radius:999px;padding:1px 10px;font-weight:800;color:var(--pink-d)}
+.alts{display:flex;flex-wrap:wrap;gap:6px 14px}
+.alts label{display:flex;gap:6px;align-items:center;font-weight:700}
+.exgrid{display:grid;grid-template-columns:230px 1fr;gap:16px}
+.prev{background:linear-gradient(#fff,var(--pink-4));border:2px solid var(--pink-3);border-radius:16px;padding:4px;align-self:start}
+.mono{font:13px/1.4 ui-monospace,Menlo,monospace}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+td,th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:12px 20px;border-radius:999px;font-weight:700;z-index:50;max-width:90vw}
+.toast.err{background:#c0204f}
+.toast[hidden]{display:none}
+@media (max-width:720px){.bi{grid-template-columns:1fr}.exgrid{grid-template-columns:1fr}.bar{flex-wrap:wrap}}

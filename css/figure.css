@@ -1,0 +1,26 @@
+/* Stick figure + props styling */
+.figure{width:100%;height:auto;display:block}
+.figure .torso{stroke:var(--fig-top,#ff4f98);stroke-width:16;stroke-linecap:round}
+.figure .limb{fill:none;stroke:var(--fig-limb,#ff9cc4);stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
+.figure .far .limb{stroke:var(--fig-far,#ffc6dc)}
+.figure .far .shoe{stroke:#d9c9ff}
+.figure .shoe{stroke:#a98bff;stroke-width:9;stroke-linecap:round}
+.figure .skin{fill:#ffe3d6}
+.figure .hair,.figure .hair-fill{stroke:#7b3a62;fill:#7b3a62}
+.figure .hair{fill:none}
+.figure .bow{fill:#ff4f98}
+.figure .eye{fill:#4a1d3d}
+.figure .blush{fill:#ff8fb8;opacity:.75}
+.figure .smile{stroke:#4a1d3d;stroke-width:1.4;stroke-linecap:round}
+.figure .pr{fill:var(--prop-fill,#efd9ea);stroke:none}
+.figure .pr .pl{stroke:var(--prop-fill,#efd9ea);stroke-linecap:round;fill:none}
+.figure .pr .bd{fill:#e4c6dc}
+.figure .pr .fl{fill:var(--floor,#f6c9dd)}
+.figure .pr .rail{stroke:#e4c6dc}
+.figure .plate{fill:#8d62d9}
+.figure .plate-in{fill:#e9dcff}
+.figure .grip{fill:#8d62d9}
+.figure .cable{stroke:#c2a8ee;stroke-width:2.5;stroke-dasharray:none}
+.figure .lever{stroke:#e4c6dc}
+.figure .sled{stroke:#8d62d9}
+.figure .spark{fill:#ffd1e3}
