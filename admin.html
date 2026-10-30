@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Admin · Masha Fit</title>
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/figure.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <div id="login" class="login" hidden>
+    <form id="loginForm" class="box">
+      <h1>Admin Masha Fit 💖</h1>
+      <p>Masukkan password admin (yang kamu set di Vercel sebagai <code>ADMIN_PASSWORD</code>).</p>
+      <input id="pw" type="password" autocomplete="current-password" placeholder="Password" required>
+      <button class="btn">Masuk</button>
+      <p id="loginMsg" class="msg"></p>
+      <button type="button" id="offline" class="btn ghost" hidden>Lanjut mode lokal (tanpa server)</button>
+    </form>
+  </div>
+  <div id="panel" hidden>
+    <header class="bar">
+      <strong>Admin · Masha Fit</strong>
+      <span id="status" class="status"></span>
+      <a class="btn ghost sm" href="./" target="_blank">Lihat situs ↗</a>
+      <button id="save" class="btn sm">Simpan & publish</button>
+    </header>
+    <nav class="tabs" id="tabs"></nav>
+    <main id="main"></main>
+  </div>
+  <div id="toast" class="toast" hidden></div>
+  <script src="js/anim.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
